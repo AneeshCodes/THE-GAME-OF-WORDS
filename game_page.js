@@ -47,7 +47,7 @@ function send()
     checkBtn = "<button class='btn btn-warning' onclick = 'check()'>Check</button>"
     row = questionWord + inputBox + checkBtn
     document.getElementById('output').innerHTML = row;
-    document.getElementById('textInputWord').value = ' ';
+    document.getElementById('textInputWord').value = '';
 }
 
 function check()
